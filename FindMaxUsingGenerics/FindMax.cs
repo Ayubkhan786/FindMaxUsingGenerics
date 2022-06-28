@@ -23,7 +23,7 @@ namespace FindMaxUsingGenerics
             {
                 Console.WriteLine("The Max is Z and the value is : {0}", Z);
             }
-
+            Console.WriteLine("*******************************************************************");
         }
         public void CompareFloat(double A, double B, double C)
         {
@@ -40,6 +40,24 @@ namespace FindMaxUsingGenerics
                 {
                     Console.WriteLine("The Max is C and the value is : {0}", C);
                 }
+            Console.WriteLine("*******************************************************************");
         }
+        public void CompareString(string M, string N, string O)
+        {
+            if (M.CompareTo(N) > 0 && M.CompareTo(O) > 0)
+            {
+                Console.WriteLine("The Max is M and the value is : {0}", M);
+            }
+            else if (N.CompareTo(O) > 0 && N.CompareTo(M) > 0)
+            {
+                Console.WriteLine("The Max is N and the value is : {0}", N);
+            }
+            else if (O.CompareTo(M) > 0 && O.CompareTo(N) > 0)
+            {
+                Console.WriteLine("The Max is O and the value is : {0}", O);
+            }
+            Console.WriteLine("*******************************************************************");
+        }
+
     }
 }
