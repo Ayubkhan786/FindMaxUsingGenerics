@@ -23,9 +23,13 @@ namespace FindMaxUsingGenerics
             {
                 Console.WriteLine("The Max is Z and the value is : {0}", Z);
             }
+<<<<<<< HEAD
             Console.WriteLine("*******************************************************************");
+=======
+            Console.WriteLine("***************************************************************************");
+>>>>>>> UC2_FindMaxFloat
         }
-        public void CompareFloat(double A, double B, double C)
+        public void CompareFloat(float A, float B, float C)
         {
             
                 if (A.CompareTo(B) > 0 && A.CompareTo(C) > 0)

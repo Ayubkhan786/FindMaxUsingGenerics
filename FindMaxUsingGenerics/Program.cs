@@ -23,17 +23,18 @@ max.Compare(X,Y,Z);
 
 
 //To CompareFloat
-Random ran = new Random();
-ran.NextDouble();
-double A = ran.NextDouble();
-double B = ran.NextDouble();
-double C = ran.NextDouble();
+
+float A=(2.64875F);
+float B=(0.34574F);
+float C=(1.54674231F);
+
 
 Console.WriteLine(A);
 Console.WriteLine(B);
 Console.WriteLine(C);
 
-Find<double> maxFloat = new Find<double>();
+
+Find<float> maxFloat = new Find<float>();
 maxFloat.CompareFloat(A, B, C);
 
 
