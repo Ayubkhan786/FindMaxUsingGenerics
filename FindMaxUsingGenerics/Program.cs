@@ -36,3 +36,7 @@ maxFloat.CompareFloat(A, B, C);
 
 
 
+
+//To Compare String
+Find<string> maxString = new Find<string>();
+maxString.CompareString("Mohamed", "Abdul", "Ayub");
