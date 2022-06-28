@@ -50,7 +50,7 @@ maxString.CompareString("Mohamed", "Abdul", "Ayub");
 
 //To CompareAll at Once
 SingleGenericMethod<int> Max = new SingleGenericMethod<int>(425, 874, 545);
-max.Compare(425, 874, 545);
+Max.Compare();
 
 SingleGenericMethod<string> Max1 = new SingleGenericMethod<string>("Apple", "Peach", "banana");
 Max1.Compare();
