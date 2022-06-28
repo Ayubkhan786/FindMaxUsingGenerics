@@ -41,5 +41,6 @@ namespace FindMaxUsingGenerics
                     Console.WriteLine("The Max is C and the value is : {0}", C);
                 }
         }
+       
     }
 }
