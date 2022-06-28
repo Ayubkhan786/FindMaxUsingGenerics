@@ -30,15 +30,15 @@ namespace FindMaxUsingGenerics
             
                 if (A.CompareTo(B) > 0 && A.CompareTo(C) > 0)
                 {
-                    Console.WriteLine("The Max is X and the value is : {0}", A);
+                    Console.WriteLine("The Max is A and the value is : {0}", A);
                 }
                 else if (B.CompareTo(C) > 0 && B.CompareTo(A) > 0)
                 {
-                    Console.WriteLine("The Max is Y and the value is : {0}", B);
+                    Console.WriteLine("The Max is B and the value is : {0}", B);
                 }
                 else if (C.CompareTo(A) > 0 && C.CompareTo(B) > 0)
                 {
-                    Console.WriteLine("The Max is Z and the value is : {0}", C);
+                    Console.WriteLine("The Max is C and the value is : {0}", C);
                 }
         }
     }
