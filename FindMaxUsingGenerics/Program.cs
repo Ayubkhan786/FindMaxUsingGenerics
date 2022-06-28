@@ -31,5 +31,5 @@ Console.WriteLine(A);
 Console.WriteLine(B);
 Console.WriteLine(C);
 
-Find<int> maxFloat = new Find<int>();
+Find<double> maxFloat = new Find<double>();
 maxFloat.CompareFloat(A, B, C);
