@@ -8,20 +8,20 @@ namespace FindMaxUsingGenerics
 {
         public class Exp<uType> where uType : IComparable
         {
-            uType[] A;    //variable
-            public Exp(params uType[] arr)   //constructor
+            uType[] A;    
+            public Exp(params uType[] arr)   
             {
                 this.A = arr;
             }
-            public void sort()
+            public void sorting()
             {
                 Array.Sort(this.A);
             }
-            public uType Comparison()
+            public uType Compare()
             {
                 return A[A.Length - 1];
             }
-            public void Show()
+            public void Display()
             {
                 foreach (var uType in A)
                 {
