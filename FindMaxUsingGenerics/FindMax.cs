@@ -11,19 +11,35 @@ namespace FindMaxUsingGenerics
     {
         public void Compare(uType X, uType Y, uType Z)
         {
-            if (X.CompareTo(Y) > 0 && X.CompareTo(Z) > 0 )
+            if (X.CompareTo(Y) > 0 && X.CompareTo(Z) > 0)
             {
                 Console.WriteLine("The Max is X and the value is : {0}", X);
             }
-            else if (Y.CompareTo(X) > 0 && Y.CompareTo(Z) > 0) 
+            else if (Y.CompareTo(X) > 0 && Y.CompareTo(Z) > 0)
             {
                 Console.WriteLine("The Max is Y and the value is : {0}", Y);
             }
-            else if (Z.CompareTo(X) > 0 && Z.CompareTo(Y) > 0) 
+            else if (Z.CompareTo(X) > 0 && Z.CompareTo(Y) > 0)
             {
                 Console.WriteLine("The Max is Z and the value is : {0}", Z);
             }
-           
+
+        }
+        public void CompareFloat(double A, double B, double C)
+        {
+            
+                if (A.CompareTo(B) > 0 && A.CompareTo(C) > 0)
+                {
+                    Console.WriteLine("The Max is X and the value is : {0}", A);
+                }
+                else if (B.CompareTo(C) > 0 && B.CompareTo(A) > 0)
+                {
+                    Console.WriteLine("The Max is Y and the value is : {0}", B);
+                }
+                else if (C.CompareTo(A) > 0 && C.CompareTo(B) > 0)
+                {
+                    Console.WriteLine("The Max is Z and the value is : {0}", C);
+                }
         }
     }
 }
