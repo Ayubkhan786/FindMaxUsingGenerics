@@ -1,5 +1,7 @@
 ﻿using FindMaxUsingGenerics;
 
+
+
 Console.WriteLine("Find Maximum , Problems using Generics");
 
 //To CompareInt
@@ -40,3 +42,19 @@ maxFloat.CompareFloat(A, B, C);
 //To Compare String
 Find<string> maxString = new Find<string>();
 maxString.CompareString("Mohamed", "Abdul", "Ayub");
+
+
+
+
+
+
+//To CompareAll at Once
+SingleGenericMethod<int> Max = new SingleGenericMethod<int>(425, 874, 545);
+max.Compare(425, 874, 545);
+
+SingleGenericMethod<string> Max1 = new SingleGenericMethod<string>("Apple", "Peach", "banana");
+Max1.Compare();
+
+SingleGenericMethod<float> Max2 = new SingleGenericMethod<float>(0.002502F, 1.25001F, 2.5401F);
+Max2.Compare();
+
