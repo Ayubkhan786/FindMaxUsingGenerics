@@ -67,28 +67,28 @@ Max2.Compare();
 
 int[] val = new int[5] { 1,5,6,8,9 };
 Exp<int> maxi = new Exp<int>(val);
-maxi.sort();
-maxi.Comparison();
-maxi.Show();
-Console.WriteLine("The Max val is :" + maxi.Comparison());
+maxi.sorting();
+maxi.Compare();
+maxi.Display();
+Console.WriteLine("The Max val is :" + maxi.Compare());
 Console.WriteLine("--------------------------------------------------------------------------------");
 
 
 string[] val1 = new string[4] {"Apple","Banana","Fruit","Peach"  };
 Exp<string> maxi1 = new Exp<string>(val1);
-maxi1.sort();
-maxi1.Comparison();
-maxi1.Show();
-Console.WriteLine("The Max val is :" + maxi1.Comparison());
+maxi1.sorting();
+maxi1.Compare();
+maxi1.Display();
+Console.WriteLine("The Max val is :" + maxi1.Compare());
 Console.WriteLine("--------------------------------------------------------------------------------");
 
 
 
 float[] val2 = new float[5] { 1.54502F, 0.8445103F, 1.745105F, 1.087648F, 1.78848F };
 Exp<float> maxi2 = new Exp<float>(val2);
-maxi2.sort();
-maxi2.Comparison();
-maxi2.Show();
-Console.WriteLine("The Max val is :" + maxi2.Comparison());
+maxi2.sorting();
+maxi2.Compare();
+maxi2.Display();
+Console.WriteLine("The Max val is :" + maxi2.Compare());
 Console.WriteLine("--------------------------------------------------------------------------------");
 
