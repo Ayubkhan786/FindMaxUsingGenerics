@@ -32,7 +32,7 @@ namespace FindMaxUsingGenerics
                 {
                     Console.WriteLine("The Max is G and the value is : {0}", G);
                 }
-                
+            Console.WriteLine("***********************************************************************");
             }
         }
  }
